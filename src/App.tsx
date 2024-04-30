@@ -1,9 +1,5 @@
-import { Button } from "./components/ui/button";
+import Homepage from "./pages/homepage";
 
 export default function App() {
-  return (
-    <div className="flex justify-center h-[100vh] items-center">
-      <Button>Hello world</Button>
-    </div>
-  );
+  return <Homepage />;
 }
